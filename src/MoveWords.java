@@ -14,7 +14,6 @@ public class MoveWords{
     public MoveWords(){
         rnd = new Random();
     }
-
     public boolean isValidMoveCommand(String value){
 
         for (int i =0; i< validMoves.length; i++){
