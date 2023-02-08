@@ -8,7 +8,6 @@ public class MoveWords{
 
     private static final String[] validMoves = {"TIJERAS","PAPEL","LAGARTIJA","SPOCK","PIEDRA"};
     private static final String[] validCommands = {"SALIR", "HELP"};
-
     private Random rnd;
 
     public MoveWords(){
