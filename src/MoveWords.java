@@ -6,7 +6,7 @@ public class MoveWords{
     public static final int GANA = 1;
     public static final int PIERDE = 2;
 
-    public static final String[] validMoves = {"TIJERAS","PAPEL","LAGARTIJA","SPOCK","PIEDRA"};
+    private static final String[] validMoves = {"TIJERAS","PAPEL","LAGARTIJA","SPOCK","PIEDRA"};
     private static final String[] validCommands = {"SALIR", "HELP"};
 
     private Random rnd;
@@ -20,7 +20,6 @@ public class MoveWords{
             if(validMoves[i].equals(value))
                 return true;
         }
-
         for (int i =0; i< validCommands.length; i++){
             if(validCommands[i].equals(value))
                 return true;
