@@ -40,7 +40,6 @@ public class Game {
         System.out.println("Tu elegiste: " + player.getMove());
         System.out.println("El PC elige: " + computer.getMove());
     }
-
     private boolean processMove(Move move) {
         Move pcMove;
 
